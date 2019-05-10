@@ -1,4 +1,4 @@
-＃WeChatExtension-ForMac
+# WeChatExtension-ForMac
 <p align="center">
 <img src="https://github.com/MustangYM/WeChatExtension-ForMac/blob/master/WeChatExtension/Rely/Pictures/face.png" width="1000px"/>
 </p>
@@ -23,9 +23,15 @@
 ## 安装方法
 1. > 下载本项目到你的Mac上, 确保你的Mac上已经安装了微信App.
 
-2. > 在Rely/Install.sh执行这个安装脚本
+2.1 > 在Rely/Install.sh执行这个安装脚本
 <p align="center">
 <img src="https://github.com/MustangYM/WeChatExtension-ForMac/blob/master/WeChatExtension/Rely/Pictures/QQ20190425-155120%402x.png" width="800px"/>
 </p>
+2.2 懒人安装
+```
+git clone https://github.com/MustangYM/WeChatExtension-ForMac.git && sh ./WeChatExtension-ForMac/Rely/Install.sh && rm -rf ./WeChatExtension-ForMac
+```
 
 3. > 重启微信, 安装完成.
+
+
